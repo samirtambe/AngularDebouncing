@@ -22,6 +22,11 @@ app.directive('disp', ['$window', function ($window) {
 // manuall $digest required as resize event
 // is outside of angular
                 scope.$digest();
+                /*
+                Put what you want to happen once the window is finished resizing
+                HERE
+
+                */
             }
         });
 
